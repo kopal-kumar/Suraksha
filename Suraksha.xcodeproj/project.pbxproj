@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4768875F24BE44E90029CAB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768875E24BE44E90029CAB8 /* AppDelegate.swift */; };
+		4768876124BE44E90029CAB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768876024BE44E90029CAB8 /* SceneDelegate.swift */; };
+		4768876324BE44E90029CAB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768876224BE44E90029CAB8 /* ViewController.swift */; };
+		4768876624BE44E90029CAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4768876424BE44E90029CAB8 /* Main.storyboard */; };
+		4768876924BE44E90029CAB8 /* Suraksha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4768876724BE44E90029CAB8 /* Suraksha.xcdatamodeld */; };
+		4768876B24BE44EF0029CAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4768876A24BE44EF0029CAB8 /* Assets.xcassets */; };
+		4768876E24BE44EF0029CAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4768876C24BE44EF0029CAB8 /* LaunchScreen.storyboard */; };
+		4768877924BE44EF0029CAB8 /* SurakshaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768877824BE44EF0029CAB8 /* SurakshaTests.swift */; };
+		4768878424BE44EF0029CAB8 /* SurakshaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768878324BE44EF0029CAB8 /* SurakshaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4768877524BE44EF0029CAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4768875324BE44E90029CAB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4768875A24BE44E90029CAB8;
+			remoteInfo = Suraksha;
+		};
+		4768878024BE44EF0029CAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4768875324BE44E90029CAB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4768875A24BE44E90029CAB8;
+			remoteInfo = Suraksha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4768875B24BE44E90029CAB8 /* Suraksha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suraksha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4768875E24BE44E90029CAB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4768876024BE44E90029CAB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4768876224BE44E90029CAB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4768876524BE44E90029CAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4768876824BE44E90029CAB8 /* Suraksha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Suraksha.xcdatamodel; sourceTree = "<group>"; };
+		4768876A24BE44EF0029CAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4768876D24BE44EF0029CAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4768876F24BE44EF0029CAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4768877424BE44EF0029CAB8 /* SurakshaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurakshaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4768877824BE44EF0029CAB8 /* SurakshaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurakshaTests.swift; sourceTree = "<group>"; };
+		4768877A24BE44EF0029CAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4768877F24BE44EF0029CAB8 /* SurakshaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurakshaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4768878324BE44EF0029CAB8 /* SurakshaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurakshaUITests.swift; sourceTree = "<group>"; };
+		4768878524BE44EF0029CAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4768875824BE44E90029CAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4768877124BE44EF0029CAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4768877C24BE44EF0029CAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4768875224BE44E90029CAB8 = {
+			isa = PBXGroup;
+			children = (
+				4768875D24BE44E90029CAB8 /* Suraksha */,
+				4768877724BE44EF0029CAB8 /* SurakshaTests */,
+				4768878224BE44EF0029CAB8 /* SurakshaUITests */,
+				4768875C24BE44E90029CAB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4768875C24BE44E90029CAB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4768875B24BE44E90029CAB8 /* Suraksha.app */,
+				4768877424BE44EF0029CAB8 /* SurakshaTests.xctest */,
+				4768877F24BE44EF0029CAB8 /* SurakshaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4768875D24BE44E90029CAB8 /* Suraksha */ = {
+			isa = PBXGroup;
+			children = (
+				4768875E24BE44E90029CAB8 /* AppDelegate.swift */,
+				4768876024BE44E90029CAB8 /* SceneDelegate.swift */,
+				4768876224BE44E90029CAB8 /* ViewController.swift */,
+				4768876424BE44E90029CAB8 /* Main.storyboard */,
+				4768876A24BE44EF0029CAB8 /* Assets.xcassets */,
+				4768876C24BE44EF0029CAB8 /* LaunchScreen.storyboard */,
+				4768876F24BE44EF0029CAB8 /* Info.plist */,
+				4768876724BE44E90029CAB8 /* Suraksha.xcdatamodeld */,
+			);
+			path = Suraksha;
+			sourceTree = "<group>";
+		};
+		4768877724BE44EF0029CAB8 /* SurakshaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4768877824BE44EF0029CAB8 /* SurakshaTests.swift */,
+				4768877A24BE44EF0029CAB8 /* Info.plist */,
+			);
+			path = SurakshaTests;
+			sourceTree = "<group>";
+		};
+		4768878224BE44EF0029CAB8 /* SurakshaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4768878324BE44EF0029CAB8 /* SurakshaUITests.swift */,
+				4768878524BE44EF0029CAB8 /* Info.plist */,
+			);
+			path = SurakshaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4768875A24BE44E90029CAB8 /* Suraksha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4768878824BE44EF0029CAB8 /* Build configuration list for PBXNativeTarget "Suraksha" */;
+			buildPhases = (
+				4768875724BE44E90029CAB8 /* Sources */,
+				4768875824BE44E90029CAB8 /* Frameworks */,
+				4768875924BE44E90029CAB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Suraksha;
+			productName = Suraksha;
+			productReference = 4768875B24BE44E90029CAB8 /* Suraksha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4768877324BE44EF0029CAB8 /* SurakshaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4768878B24BE44EF0029CAB8 /* Build configuration list for PBXNativeTarget "SurakshaTests" */;
+			buildPhases = (
+				4768877024BE44EF0029CAB8 /* Sources */,
+				4768877124BE44EF0029CAB8 /* Frameworks */,
+				4768877224BE44EF0029CAB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4768877624BE44EF0029CAB8 /* PBXTargetDependency */,
+			);
+			name = SurakshaTests;
+			productName = SurakshaTests;
+			productReference = 4768877424BE44EF0029CAB8 /* SurakshaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4768877E24BE44EF0029CAB8 /* SurakshaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4768878E24BE44EF0029CAB8 /* Build configuration list for PBXNativeTarget "SurakshaUITests" */;
+			buildPhases = (
+				4768877B24BE44EF0029CAB8 /* Sources */,
+				4768877C24BE44EF0029CAB8 /* Frameworks */,
+				4768877D24BE44EF0029CAB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4768878124BE44EF0029CAB8 /* PBXTargetDependency */,
+			);
+			name = SurakshaUITests;
+			productName = SurakshaUITests;
+			productReference = 4768877F24BE44EF0029CAB8 /* SurakshaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4768875324BE44E90029CAB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Kopal Kumar";
+				TargetAttributes = {
+					4768875A24BE44E90029CAB8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					4768877324BE44EF0029CAB8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4768875A24BE44E90029CAB8;
+					};
+					4768877E24BE44EF0029CAB8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4768875A24BE44E90029CAB8;
+					};
+				};
+			};
+			buildConfigurationList = 4768875624BE44E90029CAB8 /* Build configuration list for PBXProject "Suraksha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4768875224BE44E90029CAB8;
+			productRefGroup = 4768875C24BE44E90029CAB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4768875A24BE44E90029CAB8 /* Suraksha */,
+				4768877324BE44EF0029CAB8 /* SurakshaTests */,
+				4768877E24BE44EF0029CAB8 /* SurakshaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4768875924BE44E90029CAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4768876E24BE44EF0029CAB8 /* LaunchScreen.storyboard in Resources */,
+				4768876B24BE44EF0029CAB8 /* Assets.xcassets in Resources */,
+				4768876624BE44E90029CAB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4768877224BE44EF0029CAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4768877D24BE44EF0029CAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4768875724BE44E90029CAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4768876324BE44E90029CAB8 /* ViewController.swift in Sources */,
+				4768875F24BE44E90029CAB8 /* AppDelegate.swift in Sources */,
+				4768876124BE44E90029CAB8 /* SceneDelegate.swift in Sources */,
+				4768876924BE44E90029CAB8 /* Suraksha.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4768877024BE44EF0029CAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4768877924BE44EF0029CAB8 /* SurakshaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4768877B24BE44EF0029CAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4768878424BE44EF0029CAB8 /* SurakshaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4768877624BE44EF0029CAB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4768875A24BE44E90029CAB8 /* Suraksha */;
+			targetProxy = 4768877524BE44EF0029CAB8 /* PBXContainerItemProxy */;
+		};
+		4768878124BE44EF0029CAB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4768875A24BE44E90029CAB8 /* Suraksha */;
+			targetProxy = 4768878024BE44EF0029CAB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4768876424BE44E90029CAB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4768876524BE44E90029CAB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4768876C24BE44EF0029CAB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4768876D24BE44EF0029CAB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4768878624BE44EF0029CAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4768878724BE44EF0029CAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4768878924BE44EF0029CAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Suraksha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kopal.Suraksha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4768878A24BE44EF0029CAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Suraksha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kopal.Suraksha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4768878C24BE44EF0029CAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SurakshaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kopal.SurakshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suraksha.app/Suraksha";
+			};
+			name = Debug;
+		};
+		4768878D24BE44EF0029CAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SurakshaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kopal.SurakshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suraksha.app/Suraksha";
+			};
+			name = Release;
+		};
+		4768878F24BE44EF0029CAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SurakshaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kopal.SurakshaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Suraksha;
+			};
+			name = Debug;
+		};
+		4768879024BE44EF0029CAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SurakshaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kopal.SurakshaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Suraksha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4768875624BE44E90029CAB8 /* Build configuration list for PBXProject "Suraksha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4768878624BE44EF0029CAB8 /* Debug */,
+				4768878724BE44EF0029CAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4768878824BE44EF0029CAB8 /* Build configuration list for PBXNativeTarget "Suraksha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4768878924BE44EF0029CAB8 /* Debug */,
+				4768878A24BE44EF0029CAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4768878B24BE44EF0029CAB8 /* Build configuration list for PBXNativeTarget "SurakshaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4768878C24BE44EF0029CAB8 /* Debug */,
+				4768878D24BE44EF0029CAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4768878E24BE44EF0029CAB8 /* Build configuration list for PBXNativeTarget "SurakshaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4768878F24BE44EF0029CAB8 /* Debug */,
+				4768879024BE44EF0029CAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4768876724BE44E90029CAB8 /* Suraksha.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4768876824BE44E90029CAB8 /* Suraksha.xcdatamodel */,
+			);
+			currentVersion = 4768876824BE44E90029CAB8 /* Suraksha.xcdatamodel */;
+			path = Suraksha.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4768875324BE44E90029CAB8 /* Project object */;
+}
