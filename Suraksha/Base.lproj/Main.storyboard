@@ -197,10 +197,20 @@
         <!--Fake Phone Calls-->
         <scene sceneID="OD0-EU-ldY">
             <objects>
-                <viewController title="Fake Phone Calls" id="5qh-D3-zHX" sceneMemberID="viewController">
+                <viewController title="Fake Phone Calls" id="5qh-D3-zHX" customClass="FakePhoneCallsViewController" customModule="Suraksha" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xuz-52-fsw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r95-Tw-xVn">
+                                <rect key="frame" x="116" y="114" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sound01"/>
+                                <connections>
+                                    <action selector="sound01button:" destination="5qh-D3-zHX" eventType="touchUpInside" id="pg6-RQ-koX"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="BAk-ns-HAu"/>
                     </view>

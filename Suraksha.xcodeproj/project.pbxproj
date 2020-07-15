@@ -16,6 +16,9 @@
 		4768876E24BE44EF0029CAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4768876C24BE44EF0029CAB8 /* LaunchScreen.storyboard */; };
 		4768877924BE44EF0029CAB8 /* SurakshaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768877824BE44EF0029CAB8 /* SurakshaTests.swift */; };
 		4768878424BE44EF0029CAB8 /* SurakshaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4768878324BE44EF0029CAB8 /* SurakshaUITests.swift */; };
+		476887B724BF905B0029CAB8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476887B524BF903C0029CAB8 /* AVFoundation.framework */; };
+		476887BC24BF92580029CAB8 /* FakePhoneCallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476887BB24BF92580029CAB8 /* FakePhoneCallsViewController.swift */; };
+		476887BE24BF93C10029CAB8 /* sound01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 476887BD24BF93C10029CAB8 /* sound01.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		4768877F24BE44EF0029CAB8 /* SurakshaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurakshaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4768878324BE44EF0029CAB8 /* SurakshaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurakshaUITests.swift; sourceTree = "<group>"; };
 		4768878524BE44EF0029CAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476887B524BF903C0029CAB8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		476887BB24BF92580029CAB8 /* FakePhoneCallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakePhoneCallsViewController.swift; sourceTree = "<group>"; };
+		476887BD24BF93C10029CAB8 /* sound01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound01.mp3; path = ../../../Downloads/sound01.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476887B724BF905B0029CAB8 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +92,7 @@
 				4768877724BE44EF0029CAB8 /* SurakshaTests */,
 				4768878224BE44EF0029CAB8 /* SurakshaUITests */,
 				4768875C24BE44E90029CAB8 /* Products */,
+				476887B424BF903A0029CAB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,8 @@
 				4768876024BE44E90029CAB8 /* SceneDelegate.swift */,
 				4768876224BE44E90029CAB8 /* ViewController.swift */,
 				4768876424BE44E90029CAB8 /* Main.storyboard */,
+				476887BD24BF93C10029CAB8 /* sound01.mp3 */,
+				476887BB24BF92580029CAB8 /* FakePhoneCallsViewController.swift */,
 				4768876A24BE44EF0029CAB8 /* Assets.xcassets */,
 				4768876C24BE44EF0029CAB8 /* LaunchScreen.storyboard */,
 				4768876F24BE44EF0029CAB8 /* Info.plist */,
@@ -129,6 +139,14 @@
 				4768878524BE44EF0029CAB8 /* Info.plist */,
 			);
 			path = SurakshaUITests;
+			sourceTree = "<group>";
+		};
+		476887B424BF903A0029CAB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				476887B524BF903C0029CAB8 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +255,7 @@
 			files = (
 				4768876E24BE44EF0029CAB8 /* LaunchScreen.storyboard in Resources */,
 				4768876B24BE44EF0029CAB8 /* Assets.xcassets in Resources */,
+				476887BE24BF93C10029CAB8 /* sound01.mp3 in Resources */,
 				4768876624BE44E90029CAB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476887BC24BF92580029CAB8 /* FakePhoneCallsViewController.swift in Sources */,
 				4768876324BE44E90029CAB8 /* ViewController.swift in Sources */,
 				4768875F24BE44E90029CAB8 /* AppDelegate.swift in Sources */,
 				4768876124BE44E90029CAB8 /* SceneDelegate.swift in Sources */,
