@@ -18,6 +18,7 @@ class FakePhoneCallsViewController: UIViewController {
         // Do any additional setup after loading the view.
         let sound = Bundle.main.path(forResource: "sound01", ofType: "mp3")
         do {
+            try AVAudioSession.sharedInstance().setCategory(.playback)
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
         }
         catch{
@@ -31,6 +32,9 @@ class FakePhoneCallsViewController: UIViewController {
         audioPlayer.play()
     }
     
+    @IBAction func stopButtton(_ sender: Any) {
+        audioPlayer.stop()
+    }
     
 
     /*
